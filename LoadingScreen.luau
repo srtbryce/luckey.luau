@@ -1,4 +1,10 @@
 
+local Players = game:GetService("Players")
+local TweenService = game:GetService("TweenService")
+local ReplicatedFirst = game:GetService("ReplicatedFirst")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local SoundService = game:GetService("SoundService")
+
 local Name = "https://discord.gg/NVhQt7JSqV"
 local gradienttype = "phantom"
 local ImageId = 15602019048
