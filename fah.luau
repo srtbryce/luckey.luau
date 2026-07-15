@@ -107,7 +107,6 @@ end)
 task.spawn(function()
 	repeat task.wait(0.1) until ReplicatedFirst:GetAttribute("ClientLoaded") or game:IsLoaded()
 
-	local gameLoadTime = os.clock() - gameLoadStart
 
 	Notify(string.format("<%s>%s</%s>", gradienttype, Name, gradienttype), "Top")
 	task.wait(0.35)
